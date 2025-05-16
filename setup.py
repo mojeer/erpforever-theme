@@ -1,7 +1,11 @@
 from setuptools import setup, find_packages
+
+with open("erpforever_theme/version.py") as f:
+    exec(f.read())
+
 setup(
     name='erpforever_theme',
-    version='1.0.0',
+    version=__version__,
     description='ERPForever Custom theme',
     author='Mojeer Salman',
     author_email='info@iweb.ps',
