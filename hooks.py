@@ -4,5 +4,4 @@ app_publisher = "Mojeer Salman"
 app_description = "ERPForever Custom theme"
 app_email = "info@iweb.ps"
 app_license = "MIT"
-
 app_include_js = "/assets/remote_theme/js/inject_theme.js"
